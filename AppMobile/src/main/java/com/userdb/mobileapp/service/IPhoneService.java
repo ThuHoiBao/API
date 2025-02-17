@@ -6,4 +6,6 @@ import java.util.List;
 
 public interface IPhoneService {
     List<PhoneResponseDTO> getPhonesByCategory(int categoryId);
+    List<PhoneResponseDTO> getAllPhones();
+    List<PhoneResponseDTO> getPhonesCreatedWithinLast7Days();
 }

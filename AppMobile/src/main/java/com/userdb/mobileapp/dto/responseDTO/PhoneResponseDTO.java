@@ -12,4 +12,7 @@ public class PhoneResponseDTO {
     private String color;
     private boolean status;
     private String description;
+//    private int quantity;
+    private int soldQuantity;
+    private int remainingQuantity;
 }
